@@ -106,7 +106,7 @@ d3.csv('assets/data/data.csv').then(function (census) {
             .transition()
             .duration(5000);
     })
-        // onmouseout 
+        // MouseOut
         .on("mouseout", function (data, index) {
             toolTip.hide(data)
                 .transition()
